@@ -1,0 +1,2 @@
+# Store text files with LF and keep them LF on checkout
+* text=auto eol=lf

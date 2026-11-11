@@ -1,0 +1,26 @@
+[project]
+name = "alphazero"
+version = "0.0.1"
+authors = [
+  { name="David White"},
+]
+description = "A recreation of the alphazero self-play reinforcement learning process"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"

@@ -1,0 +1,38 @@
+# Virtual Environment
+.venv/
+
+# Byte Code
+__pycache__/
+*.pyc
+
+# Checkpoints and Weights
+*.pt
+*.pth
+checkpoints/
+
+# Papers
+papers/
+
+# Runs
+/runs/
+
+# Data
+/data/
+
+# Logs
+*.log
+wandb/
+
+# Tool Caches
+.pytest_cache/
+.ipynb_checkpoints/
+.ruff_cache/
+.mypy_cache/
+
+# OS Junk
+Thumbs.db
+.DS_Store
+
+# Claude
+CLAUDE.md
+.claude/
