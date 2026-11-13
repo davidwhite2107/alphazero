@@ -1,3 +1,6 @@
+# VSCode Settings
+.vscode
+
 # Virtual Environment
 .venv/
 
